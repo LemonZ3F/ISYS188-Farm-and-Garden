@@ -1,0 +1,34 @@
+# ====== CODENAMES ====== #
+
+P - Orange
+W - Lemon
+K - Apple
+
+# ====== PAGES ====== #
+
+1 Home - Required
+2 Company Team Page - Required
+3 Policy - Required (link in footer to each policy, potentially multiple pages) 
+4 About - Required
+5 Contact Us - Required
+6 Forms - Required (Login and Registration are considered one page)
+ A. Login
+ B. Registration
+7 Animals (Roman numerals are the actual pages)
+  A. Dog
+    I. Dog Food
+    II. Dog Supplies
+  B. Cat
+    I. Cat Food
+    II. Cat Supplies
+  C. Cattle
+  D. Hog
+  E. Horse
+  F. Bird
+
+
+# ====== Page Responsibility ====== #
+
+
+
+
