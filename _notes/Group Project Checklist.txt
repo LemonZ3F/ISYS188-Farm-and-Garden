@@ -1,3 +1,5 @@
+# ====== ! THIS IS A GROUP PROJECT, NOT AN OFFICIAL COMPANY ! ====== #
+
 # ====== CODENAMES ====== #
 
 P - Orange
@@ -7,28 +9,45 @@ K - Apple
 # ====== PAGES ====== #
 
 1 Home - Required
-2 Company Team Page - Required
-3 Policy - Required (link in footer to each policy, potentially multiple pages) 
-4 About - Required
-5 Contact Us - Required
-6 Forms - Required (Login and Registration are considered one page)
+2 Privacy Policy - Required
+3 About - Required
+4 Contact Us - Required
+5 Forms - Required (Login and Registration are considered one page)
  A. Login
  B. Registration
-7 Animals (Roman numerals are the actual pages)
-  A. Dog
-    I. Dog Food
-    II. Dog Supplies
-  B. Cat
-    I. Cat Food
-    II. Cat Supplies
-  C. Cattle
-  D. Hog
-  E. Horse
-  F. Bird
+6 Delivery & Rental
+7 Dogs
+8 Cats
+9 (insert animal here)
+10 Farm Chemicals
+11 Farm Fertilizer
+12 Farm Seeds
+13 Garden Seeds
+14 Lawn Seeds
+15 Lawn & Garden Fertilizer
 
+(Pages no one is responsible for / doesn't count towards our 15 pages)
+* Company Team Page
+* Home Template
+* General Pages Template
 
 # ====== Page Responsibility ====== #
 
+Home - 
+Policy - 
+About Us - 
+Contact Us - 
+Forms - 
+Deliverary & Rental - 
+Dogs - 
+Cats - 
+tempAnimal - 
+Farm Chemicals - 
+Farm Fertilizer - 
+Farm Seeds - 
+Garden Seeds - 
+Lawn Seeds - 
+Lawn & Garden Fertilizer - 
 
 
 
