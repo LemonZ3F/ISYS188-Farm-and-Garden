@@ -6,16 +6,6 @@ body {
   background-color:#ADDDB2;
 }
 
-main {
-    /*border-bottom: 0.5rem solid;*/
-}
-
-footer {
-    background-color:#FFFFFF;
-}
-
-
-
 /* ================ CUSTOMIZE THE CAROUSEL ================ */
 
 /* Carousel base class */
@@ -34,8 +24,6 @@ footer {
   height: 32rem;
 }
 
-
-
 /* ================ MULTI-LEVEL DROPDOWNS CSS ================ */
 
 .dropdown-submenu {
@@ -43,12 +31,8 @@ footer {
 }
 
 .dropdown-submenu .dropdown-menu {
-    top: 0;
-    left: 100%;
-    margin-top: -1px;
+    top: 106%;
 }
-
-
 
 /* ================ GENERAL PAGE CLASSES  ================*/
 
@@ -75,3 +59,4 @@ footer {
 
 
 /* ======= NEW CODE ======= */
+
