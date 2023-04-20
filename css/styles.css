@@ -50,10 +50,14 @@ footer {
 
 
 
-/* ================ TEMPLATE CLASSES  ================*/
+/* ================ GENERAL PAGE CLASSES  ================*/
 
 .container-body {
     background-color:#FFFFFF;
+}
+
+.bullet {
+    margin-top:8px;
 }
 
 /* ================ RESPONSIVE CSS ================ */
