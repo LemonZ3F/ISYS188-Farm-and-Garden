@@ -33,21 +33,18 @@ K - Apple
 
 # ====== Page Responsibility ====== #
 
-Home - 
-Policy - 
-About Us - 
-Contact Us - 
-Forms - 
-Deliverary & Rental - 
-Dogs - 
-Cats - 
-tempAnimal - 
-Farm Chemicals - 
-Farm Fertilizer - 
-Farm Seeds - 
-Garden Seeds - 
-Lawn Seeds - 
-Lawn & Garden Fertilizer - 
-
-
-
+Home - Lemon
+Policy - Apple
+About Us - Apple
+Contact Us - Lemon
+Forms - Orange
+Deliverary & Rental - Lemon
+Dogs - Apple
+Cats - Apple
+tempAnimal - Apple
+Farm Chemicals - Orange
+Farm Fertilizer - Orange
+Farm Seeds - Orange
+Garden Seeds - Lemon
+Lawn Seeds - Lemon
+Lawn & Garden Fertilizer - Orange
