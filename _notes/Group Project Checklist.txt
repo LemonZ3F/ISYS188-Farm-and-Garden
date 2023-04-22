@@ -12,24 +12,24 @@ K - Apple
 2 Privacy Policy - Required
 3 About - Required
 4 Contact Us - Required
-5 Forms - Required (Login and Registration are considered one page)
- A. Login
- B. Registration
-6 Delivery & Rental
-7 Dogs
-8 Cats
-9 (insert animal here)
-10 Farm Chemicals
-11 Farm Fertilizer
-12 Farm Seeds
-13 Garden Seeds
-14 Lawn Seeds
-15 Lawn & Garden Fertilizer
+X Forms - Required
+ 5. Login
+ 6. Registration
+7 Delivery & Rental
+8 Dogs
+9 Cats
+10 (insert animal here)
+11 Farm Chemicals
+12 Farm Fertilizer
+13 Farm Seeds
+14 Garden Seeds
+15 Lawn Seeds
 
 (Pages no one is responsible for / doesn't count towards our 15 pages)
 * Company Team Page
 * Home Template
 * General Pages Template
+* Lawn & Garden Fertilizer (Additional if needed)
 
 # ====== Page Responsibility ====== #
 
@@ -37,7 +37,8 @@ Home - Lemon
 Policy - Apple
 About Us - Apple
 Contact Us - Lemon
-Forms - Orange
+Login - Orange
+Registration - Orange
 Deliverary & Rental - Lemon
 Dogs - Apple
 Cats - Apple
@@ -47,4 +48,4 @@ Farm Fertilizer - Orange
 Farm Seeds - Orange
 Garden Seeds - Lemon
 Lawn Seeds - Lemon
-Lawn & Garden Fertilizer - Orange (if forms count as two pages, Lemon will do Lawn & Garden Fertilizer)
+* Lawn & Garden Fertilizer - No one, (Additional if needed)
