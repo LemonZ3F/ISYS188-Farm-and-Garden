@@ -3,10 +3,29 @@
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background-color:#ADDDB2;
+
+  /* Makes background outside of main container a gradient that changes colors from a dark green, to lighter green */
+  background-image: linear-gradient(#1f4a2b, #869c8b)
 }
 
-/* ================ CUSTOMIZE THE CAROUSEL ================ */
+/* ================ GENERAL PAGE CLASSES  ================ */
+
+.container-body {
+    background-color:#FFFFFF;
+}
+
+.bullet-Divider {
+    margin-top:8px;
+}
+
+
+/* ================ NAVBAR ================ */
+
+/* Class created just for the top navigation menu, check link styles for color change and underlining*/
+.topNav {
+}
+
+/* ================ CAROUSEL ================ */
 
 /* Carousel base class */
 .carousel {
@@ -24,26 +43,6 @@ body {
   height: 32rem;
 }
 
-/* ================ MULTI-LEVEL DROPDOWNS CSS ================ */
-
-.dropdown-submenu {
-    position: relative;
-}
-
-.dropdown-submenu .dropdown-menu {
-    top: 106%;
-}
-
-/* ================ GENERAL PAGE CLASSES  ================*/
-
-.container-body {
-    background-color:#FFFFFF;
-}
-
-.bullet {
-    margin-top:8px;
-}
-
 /* ================ RESPONSIVE CSS ================ */
 
 @media (min-width: 40em) {
@@ -56,7 +55,33 @@ body {
 
 }
 
+/* ================ OVERRULE BOOTSTRAP CSS ================ */
 
+.border-top {
+    border-color:#000000!important;
+}
+
+.text-body-secondary {
+    color:#000000!important;
+}
+
+/* ================ LINK STYLES  ================ */
+
+/* Makes only the hyperlinks with the .nav-link class underlined (all links but top left logo) */
+/* Only style applied to bottom footer links, footer links don't change colors like links in navbar */
+a.nav-link:hover {
+    text-decoration:underline;
+}
+
+/* Color property only applied to hovered links in nav, except for logo in top left */
+a.topNav:hover {
+    color:#0000FF!important;
+}
+
+/* Color property only applied to links being clicked in the nav, except for logo in top left */
+a.topNav:active {
+    color:#0000D6!important;
+}
 
 /* ======= NEW CODE ======= */
 
