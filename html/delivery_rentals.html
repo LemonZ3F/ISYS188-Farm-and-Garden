@@ -13,7 +13,7 @@
        <meta charset="utf-8">
        <meta name="viewport" content="width=device-width, initial-scale=1">
        <meta name="description" content="Farm and Garden">
-       <meta name="author" content="Apple, Lemon, Orange">
+       <meta name="author" content="Lemon">
        <meta name="generator" content="Bootstrap v5.3, Brackets v2.2.0">
        
        
@@ -70,7 +70,7 @@
                     <div class="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
                         <a class="navbar-brand col-lg-3 me-0" href="home.html">
                            <!-- Logo next to Company Name (Link to home) -->
-                            <img src="../images/favicons/icon_farms_and_gardens.ico" class="d-inline-block align-text-top" style="height:24px;">
+                            <img src="../images/favicons/icon_farms_and_gardens.ico" class="d-inline-block align-text-top" style="height:24px;" alt="Red Barn Logo">
                            Big Rapids Farm &amp; Garden
                         </a>
                        
@@ -86,7 +86,7 @@
                            
                             <!-- Deliverary & Rentals -->
                             <li class="nav-item">
-                                <a class="nav-link topNav active" aria-current="page" href="delivery_rentals.html">Delivery &amp; Rentals</a>
+                                <a class="nav-link topNav active" aria-current="page" href="#">Delivery &amp; Rentals</a>
                             </li>
                            
                            
@@ -162,11 +162,12 @@
         <main>
             <section>
                 <div>
-                    <div class="p-5 text-center bg-body-tertiary">
-                        <div class="container py-5">
-                            <h1 class="text-body-emphasis">Full-width jumbotron</h1>
-                            <p class="col-lg-8 mx-auto lead">
-                                This takes the basic jumbotron above and makes its background edge-to-edge with a <code>.container</code> inside to align content. Similar to above, it's been recreated with built-in grid and utility classes.
+                    <!-- Background image provided at -->
+                    <div class="p-5 text-center bg-body-tertiary mb-5" style="background-image:url(../images/delivery_jumbotron_storage.jpeg)">
+                        <div class="container py-5 shadow-lg rounded" style="background-color:hsla(211, 12%, 48%, 0.50);">
+                            <h1 class="text-body-emphasis display-1" style="color:white!important;"><strong>Delivery, Pickup, &amp; Rentals!</strong></h1>
+                            <p class="col-lg-8 mx-auto lead text-body-emphasis display-5" style="color:white!important;">
+                                <strong>Find all the purchasing options you have with an account here&#33;</strong>
                             </p>
                         </div>
                     </div>
@@ -184,33 +185,162 @@
                
             
             
-            <div class="container-lg container-body">
-                <section>
+            <div class="container-lg container-body rounded shadow-lg">
                     <article>
-                        <h1>This is the main container</h1>
-                        <p>Test</p>
-                        <img src="../images/templateimage_1600x535.png" class="img-fluid rounded mx-auto d-block">
-                    
-                        <br>
-                    
-                        <div class="row mt-3 ms-3 me-3">
-                            <div class="col-lg-6 text-center">
+                        
+                        
+                        
+                        <!-- First Row Start -->
+                        <div class="row mt-5 pt-3 ms-3 me-3 border border-top-0">
                             
-                                <p class="fs-2 text-start">Lorem Ipsum</p>
-
-                                <p class="fs-5">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                </p>
-                            </div>   
-                            <div class="col-lg-6 text-center">
-                                <img src="../images/templateimage_600x600.png" class="img-fluid rounded">
+                            <!-- Delivery -->
+                            <div class="col-lg-3 text-center fs-3 border-end">
+                                <a href="#delivery" target="_self" class="sectionLink">Delivery</a>
+                            </div>
+                            
+                            <!-- Pickups -->
+                            <div class="col-lg-3 text-center fs-3 border-end">
+                                <a href="#pickups" target="_self" class="sectionLink">Pickups</a>
+                            </div>
+                            
+                            <!-- Rentals -->
+                            <div class="col-lg-3 text-center fs-3 border-end">
+                                <a href="#rentals" target="_self" class="sectionLink">Rentals</a>
+                            </div>
+                            
+                            <!-- Disclaimer -->
+                            <div class="col-lg-3 text-center fs-3">
+                                <a href="#disclaimer" target="_self" class="sectionLinkDisclaimer">
+                                    <!-- Exclamation Circle Icon -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-circle-fill mb-2" viewBox="0 0 16 16" style="color:#8F0000;">
+                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+                                    </svg>
+                                    
+                                    Disclaimer
+                                    
+                                </a>
                             </div>
                         </div>
-                    
-                        <br>
-                    
+                        <!-- First Row End -->
+                        
+                        
+                        <section id="delivery">
+                            <br>
+                            <!-- Second Row Start -->
+                            <div class="row mt-3 ms-3 me-3">
+                            
+                                <!-- First Column Start-->
+                                <div class="col-lg-6 text-center">
+                                
+                                    <!-- Delivery image to the left of text -->
+                                    <!-- Image found at https://www.brfarmandgarden.com/delivery-and-rentals next to delivery heading -->
+                                    <img src="../images/delivery_deliverytruck.jpeg" class="img-fluid rounded mt-5" alt="Delivery Truck">
+                                
+                                </div>   
+                                <!-- First Column End -->
+                            
+                            
+                                <!-- Second Column Start -->
+                                <div class="col-lg-6 text-center">
+                                
+                                    <!-- Delivery -->
+                                    <h1 class="text-center mt-3">Delivery</h1>
+                                
+                                    <!-- Delivery Text Body -->
+                                    <p class="fs-4 text-center">Do you need supplies but don't have the time in your schedule to pick it up&#63; Don’t fret! we offer a delivery service for orders that can take up a back seat to one whole truck. We do ask that if you do have delivery requests that you call in or request in person in advance to give us a day head-up time to make sure our equipment is available to deliver. </p>
+                                
+                                </div>
+                            <!-- Second Column End -->
+                            </div>
+                        <!-- Second Row End -->
+                        </section>
+                        
+                        
+                        
+                        <section id="pickups">
+                            <br>
+                            <!-- Third Row Start -->
+                            <div class="row mt-3 ms-3 me-3">
+                            
+                                <!-- First Column Start-->
+                                <div class="col-lg-6 text-center">
+                                
+                                    <!-- Rental image to the left of text -->
+                                    <!-- Image found at https://www.brfarmandgarden.com/ below heading "Big Rapids Drive Through" -->
+                                    <img src="../images/delivery_pickups.jpeg" class="img-fluid rounded mt-5" alt="Farm and Garden Drive Through with sign 'Enter Here'">
+                                
+                                </div>   
+                                <!-- First Column End -->
+                            
+                            
+                                <!-- Second Column Start -->
+                                <div class="col-lg-6 text-center">
+                                
+                                    <!-- Pickups -->
+                                    <h1 class="text-center mt-3">Pickups</h1>
+                                
+                                    <!-- Pickups Text Body -->
+                                    <p class="fs-4 text-center">Want to quickly pickup your items and go&#63; Then our drive through is perfect for you&#33; Scroll through our items and call to purchase them so they'll be waiting for you at the drive through &#40;see the corresponding image, you can't miss it!&#41;. We do for pickups that you give our team a call at least 3 hours before you intend to pickup, so we can make sure we have our items in stock and prepared for you. </p>
+                                
+                                </div>
+                            <!-- Second Column End -->
+                            </div>
+                        <!-- Third Row End -->
+                        </section>
+                        
+                        
+                        
+                        <section id="rentals">
+                            <br>
+                            <!-- Fourth Row Start -->
+                            <div class="row mt-3 ms-3 me-3">
+                            
+                                <!-- First Column Start-->
+                                <div class="col-lg-6 text-center">
+                                
+                                    <!-- Rental image to the left of text -->
+                                    <!-- Image found at https://www.brfarmandgarden.com/delivery-and-rentals next to rentals heading-->
+                                    <img src="../images/delivery_rentals.jpeg" class="img-fluid rounded mt-5" alt="Rentals Showcase">
+                                
+                                </div>   
+                                <!-- First Column End -->
+                            
+                            
+                                <!-- Second Column Start -->
+                                <div class="col-lg-6 text-center">
+                                
+                                    <!-- Rentals -->
+                                    <h1 class="text-center mt-3">Rentals</h1>
+                                
+                                    <!-- Rentals Text Body -->
+                                    <p class="fs-4 text-center">Do you need some bulk fertilizer in your field but don’t own a spreader? Have no fear we have spreaders for rent so you can make sure your harvest this year is the best. Give us a call for farm related rentals and we likely have whatever you're looking for&#33; We do ask that all rental requests be called in or requested in person in advance to give us time to make sure our equipment is available for you when you need it.  </p>
+                                
+                                </div>
+                            <!-- Second Column End -->
+                            </div>
+                        <!-- Fourth Row End -->
+                        </section>
+                        
+                        
+                        
+                        <section id="disclaimer">
+                            <br>
+                            <div class="mt-3 ms-3 me-3">
+                                <div class="text-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-exclamation-circle-fill" viewBox="0 0 16 16" style="color:#8F0000;">
+                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+                                    </svg>
+                                    <!-- Disclaimer -->
+                                    <h1 class="text-center mt-3">Disclaimer</h1>
+                                    <!-- Disclaimer Text Body -->
+                                    <p class="fs-4 text-center pb-5">You <strong>CANNOT</strong> call for delivery, pickup, or rentals if you do not have an account&#33; We use accounts to track purchase history and to associate purchases with accounts.</p>
+                                </div>
+                            </div>
+                        </section>
+                        
+                        
+                        
                     </article>
-                </section>
             </div>
         </main>
         <!-- Main End -->        
@@ -230,21 +360,21 @@
                         <a href="home.html" class="nav-link px-2 text-body-secondary">Home</a>
                     </li>
                     
-                    <p  class="bullet-Divider">&#x2022;</p>
+                    <li class="bullet-Divider">&#x2022;</li>
                     
                     <!-- Privacy Policy -->
                     <li class="nav-item">
                         <a href="privacy_policy.html" class="nav-link px-2 text-body-secondary">Privacy Policy</a>
                     </li>
                     
-                    <p  class="bullet-Divider">&#x2022;</p>
+                    <li class="bullet-Divider">&#x2022;</li>
                     
                     <!-- Contact Us -->
                     <li class="nav-item">
                         <a href="contact.html" class="nav-link px-2 text-body-secondary">Contact Us</a>
                     </li>
                     
-                    <p  class="bullet-Divider">&#x2022;</p>
+                    <li class="bullet-Divider">&#x2022;</li>
                     
                     <!-- About Us -->
                     <li class="nav-item">
