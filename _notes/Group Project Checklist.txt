@@ -57,3 +57,5 @@ Lawn Seeds - Lemon
 
 - Changed lawn and garden dropdown to have Lawn and Garden Seeds + Lawn and Garden Fertilizer Only
 - Changed the html file name of lawn_seeds.html TO lawn_garden_seeds.html
+
+- Added another navbar link next to Login link to the original website (external link on navbar for requirement)
