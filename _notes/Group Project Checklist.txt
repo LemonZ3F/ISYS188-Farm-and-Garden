@@ -49,3 +49,11 @@ Farm Seeds - Orange
 Garden Seeds - Lemon
 Lawn Seeds - Lemon
 * Lawn & Garden Fertilizer - No one, (Additional if needed)
+
+# ====== Page Template Changes 4/27/2023 1:49 PM ====== #
+
+- Changed tempAnimal link to horse.html
+- Changed tempAnimal anchor text to Horses
+
+- Changed lawn and garden dropdown to have Lawn and Garden Seeds + Lawn and Garden Fertilizer Only
+- Changed the html file name of lawn_seeds.html TO lawn_garden_seeds.html
