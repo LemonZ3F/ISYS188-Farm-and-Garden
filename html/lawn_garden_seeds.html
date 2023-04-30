@@ -37,10 +37,29 @@
         
         <link rel="stylesheet" href="../css/styles.css">
         <style>
-            .col-4 {
-                flex: 0 0 auto;
-                width: 20%;
+            /* Makes all list items within an unordered list that is nested inside a list item have squares instead of empty circles */
+            li ul li {
+                list-style-type:square;
             }
+            
+            /* Gives a dark gray border to visually separate lawn seeds and mixes on normal screen sizes */
+            /* (border is still there on phone sized screens, but it's implemented for normal screens) */
+            .col-lg-4 {
+                border-color:darkgray!important;
+            }
+            
+            /* Gives a dark gray border to visually separate lawn seeds and mixes on normal screen sizes */
+            /* (border is still there on phone sized screens, but it's implemented for normal screens) */
+            .col-lg-6 {
+                border-color:darkgray!important;
+            }
+            
+            /* Overwrites the "li ul li" style above so that the nav dropdowns (such as dog) in the menu do NOT have bullets on the left */
+            /* Still keeps squares for everything outside of the navbar */
+            .nav-item li {
+                list-style-type:none!important;
+            }
+            
         </style>
         
         
@@ -92,7 +111,7 @@
                            
                             <!-- Deliverary & Rentals -->
                             <li class="nav-item">
-                                <a class="nav-link topNav active" aria-current="page" href="#">Delivery &amp; Rentals</a>
+                                <a class="nav-link topNav active" aria-current="page" href="delivery_rentals.html">Delivery &amp; Rentals</a>
                             </li>
                            
                            
@@ -103,7 +122,7 @@
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="dog.html">Dogs</a></li>
                                     <li><a class="dropdown-item" href="cat.html">Cats</a></li>
-                                    <li><a class="dropdown-item" href="temporaryAnimal.html">tempAnimals</a></li>
+                                    <li><a class="dropdown-item" href="horse.html">Horses</a></li>
                                 </ul>
                             </li>
                            
@@ -125,8 +144,7 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link topNav dropdown-toggle active" href="#" data-bs-toggle="dropdown" aria-expanded="false">Lawn &amp; Garden</a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="garden_seeds.html">Garden Seeds</a></li>
-                                    <li><a class="dropdown-item" href="lawn_seeds.html">Lawn Seeds</a></li>
+                                    <li><a class="dropdown-item" href="#">Lawn &amp; Garden Seeds</a></li>
                                     <li><a class="dropdown-item" href="lawn_garden_fertilizer.html">Lawn &amp; Garden Fertilizer</a></li>
                                 </ul>
                             </li>
@@ -136,6 +154,13 @@
                             <!-- Login & Registration -->
                             <li class="nav-item">
                                 <a class="nav-link topNav active" aria-current="page" href="login.html">Login</a>
+                            </li>
+                            
+                            
+                            
+                            <!-- Link to Original Website (External Link) -->
+                            <li class="nav-item">
+                                <a class="nav-link topNav active" aria-current="page" href="https://www.brfarmandgarden.com/">Original Website</a>
                             </li>
                            
                         </ul>
@@ -168,12 +193,12 @@
         <main>
             <section>
                 <div>
-                    <!-- Background image provided at -->
-                    <div class="p-5 text-center bg-body-tertiary mb-5" style="background-image:url(../images/delivery_jumbotron_storage.jpeg)">
+                    <!-- Background image provided at https://myplantin.com/blog/how-to-grow-watermelon-from-seed -->
+                    <div class="p-5 text-center bg-body-tertiary mb-5" style="background-image:url(../images/seeds_jumbotron_watermelongrowing.jpeg)">
                         <div class="container py-5 shadow-lg rounded" style="background-color:hsla(211, 12%, 48%, 0.50);">
-                            <h1 class="text-body-emphasis display-1" style="color:white!important;"><strong>Delivery, Pickup, &amp; Rentals!</strong></h1>
+                            <h1 class="text-body-emphasis display-1" style="color:white!important;"><strong>Lawn &amp; Garden Seeds</strong></h1>
                             <p class="col-lg-8 mx-auto lead text-body-emphasis display-5" style="color:white!important;">
-                                <strong>Find all the purchasing options you have with an account here&#33;</strong>
+                                <strong>All Your Lawn &amp; Garden Related Seeds in One Place</strong>
                             </p>
                         </div>
                     </div>
@@ -208,6 +233,7 @@
                             </div>
                             
                         </div>
+                        <!-- First Row End -->
                         
                         <!-- Second Row Start -->
                         <div class="row mt-5 pt-3 ms-3 me-3 border border-top-0">
@@ -237,13 +263,18 @@
                         <!-- Second Row End -->
                         
                         
-                            <br>
-                            <!-- Third Row Start -->
-                            <div class="row mt-3 ms-3 me-3">
+                        <br>
+                        
+                        <!-- Section id garden for link jump -->
+                        <section id="garden">
                             
-                                <!-- First Column Start-->
-                                <div class="col-4 fs-5 mb-2 rounded me-2" style="background-color:#E0E0E0;">
-                                    <section id="atod">
+                        <!-- Third Row Start -->
+                        <div class="row mt-3 mx-3">
+                            
+                            <!-- First Column Start-->
+                            <div class="col-lg-4 fs-5 mb-2 border-end" style="background-color:#E0E0E0;">
+                                <section id="atod">
+                                    <br>
                                     
                                     <!-- A through D heading -->
                                     <h1 class="text-center mt-3">Garden Seeds A&#45;D</h1>
@@ -405,36 +436,491 @@
                                             </ul>
                                         </li>
                                         
+                                        <li class="border-bottom">
+                                            Chives
+                                            <ul>
+                                                <li>
+                                                    Chives
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li class="border-bottom">
+                                            Cucumber
+                                            <ul>
+                                                <li>
+                                                    Straight Eight
+                                                </li>
+                                                <li>
+                                                    Pickling
+                                                </li>
+                                                <li>
+                                                    Bush Cucumber
+                                                </li>
+                                                <li>
+                                                    Burpless
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
                                     </ul>
                                     
 
-                                    </section>
-                                </div>   
-                                <!-- First Column End -->
+                                </section>
+                            </div>   
+                            <!-- First Column End -->
                             
                             
-                                <!-- Second Column Start -->
-                                <div class="col-4 fs-5 me-0 mb-2 rounded" style="background-color:#E0E0E0;">
-                                    <section id="etop">
-                                        Test23
-                                    </section>
-                                </div>
-                                <!-- Second Column End -->
-                                
-                                <div class="col-4 fs-5 mb-2 rounded" style="background-color:#E0E0E0;">
-                                    <section id="qtoz">
-                                        Test
-                                    </section>
-                                </div>
+                            <!-- Second Column Start -->
+                            <div class="col-lg-4 fs-5 me-0 mb-2 border-end" style="background-color:#E0E0E0;">
+                                <section id="etop">
+                                    <br>
+                                        
+                                    <!-- E through P heading -->
+                                    <h1 class="text-center mt-3">Garden Seeds E&#45;P</h1>
+                                    
+                                    <ul>
+                                        <li class="border-bottom">
+                                            Eggplant
+                                            <ul>
+                                                <li>
+                                                    Black Beauty
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li class="border-bottom">
+                                            Kale
+                                            <ul>
+                                                <li>
+                                                    Dwarf Blue Curled
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li class="border-bottom">
+                                            Kohl Rabi
+                                            <ul>
+                                                <li>
+                                                    Early White Vienna
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li class="border-bottom">
+                                            Lettuce
+                                            <ul>
+                                                <li>
+                                                    Buttercrunch
+                                                </li>
+                                                <li>
+                                                    Black Seeded Simpson
+                                                </li>
+                                                <li>
+                                                    Grand Seeded Simpson
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li class="border-bottom">
+                                            Mustard
+                                            <ul>
+                                                <li>
+                                                    Florida Broadleaf
+                                                </li>
+                                                <li>
+                                                    Southern Giant Curled
+                                                </li>
+                                                <li>
+                                                    Tender Green
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li class="border-bottom">
+                                            Onions
+                                            <ul>
+                                                <li>
+                                                    Yellow Sweet
+                                                </li>
+                                                <li>
+                                                    White Sweet
+                                                </li>
+                                                <li>
+                                                    Lisbon Bunching
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li class="border-bottom">
+                                            Parsley
+                                            <ul>
+                                                <li>
+                                                    Curled
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li class="border-bottom">
+                                            Parsnip
+                                            <ul>
+                                                <li>
+                                                    Harris Early Model
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li class="border-bottom">
+                                            Peas
+                                            <ul>
+                                                <li>
+                                                    Little Marvel
+                                                </li>
+                                                <li>
+                                                    Thomas Laxton
+                                                </li>
+                                                <li>
+                                                    Wando
+                                                </li>
+                                                <li>
+                                                    Dwarf Gray Sugar &#40;Snow Peas&#41;
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li class="border-bottom">
+                                            Pepper
+                                            <ul>
+                                                <li>
+                                                    California Wonder Sweet
+                                                </li>
+                                                <li>
+                                                    Lod Red Cheyenne Hot
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li class="border-bottom">
+                                            Potatoes
+                                            <ul>
+                                                <li>
+                                                    Adirondack Blue &#40;Blue Early Season&#41;
+                                                </li>
+                                                <li>
+                                                    Irish Cobbler &#40;White Early Season&#41;
+                                                </li>
+                                                <li>
+                                                    Kennebec &#40;Yellow Mid Season&#41;
+                                                </li>
+                                                <li>
+                                                    Onaway&#40;White Early Season&#41;
+                                                </li>
+                                                <li>
+                                                    Russet Burbank &#40;White Late Season&#41;
+                                                </li>
+                                                <li>
+                                                    Red Pontiac &#40;Red Mid Season&#41;
+                                                </li>
+                                                <li>
+                                                    Red Norland &#40;Red Early Season&#41;
+                                                </li>
+                                                <li>
+                                                    Superior &#40;White Early Season&#41;
+                                                </li>
+                                                <li>
+                                                    Yukon Gold &#40;Yellow Mid Season&#41;
+                                                </li>
+                                                
+                                            </ul>
+                                        </li>
+                                        
+                                        <li class="border-bottom">
+                                            Pumpkins
+                                            <ul>
+                                                <li>
+                                                    Connecticut Field
+                                                </li>
+                                                <li>
+                                                    Big Max
+                                                </li>
+                                                <li>
+                                                    Early Sugar Or Pie
+                                                </li>
+                                                <li>
+                                                    Jack O'Lantern
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                    </ul>
+                                        
+                                </section>
                             </div>
+                            <!-- Second Column End -->
+                            
+                            
+                            
+                            <!-- Third Column Start -->
+                            <div class="col-lg-4 fs-5 mb-2" style="background-color:#E0E0E0;">
+                                <section id="qtoz">
+                                    <br>
+                                        
+                                    <!-- Q through Z heading -->
+                                    <h1 class="text-center mt-3">Garden Seeds Q&#45;Z</h1>
+                                    
+                                    <ul>
+                                        <li class="border-bottom">
+                                            Radish
+                                            <ul>
+                                                <li>
+                                                    Early Scarlet Globe
+                                                </li>
+                                                <li>
+                                                    French Breakfast
+                                                </li>
+                                                <li>
+                                                    White Icicle
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li class="border-bottom">
+                                            Rutabaga
+                                            <ul>
+                                                <li>
+                                                    American Purple Top
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li class="border-bottom">
+                                            Spinach
+                                            <ul>
+                                                <li>
+                                                    Bloomsdale
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li class="border-bottom">
+                                            Squash
+                                            <ul>
+                                                <li>
+                                                    Black Beauty Zucchini
+                                                </li>
+                                                <li>
+                                                    Summer Crookneck
+                                                </li>
+                                                <li>
+                                                    Straightneck
+                                                </li>
+                                                <li>
+                                                    Burgess Buttercup
+                                                </li>
+                                                <li>
+                                                    Improved Green Hubbard
+                                                </li>
+                                                <li>
+                                                    Table Queen Or Acorn
+                                                </li>
+                                                <li>
+                                                    Vegetable Spaghetti
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li class="border-bottom">
+                                            Sugar Beet
+                                            <ul>
+                                                <li>
+                                                    Big Buck Blend
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li class="border-bottom">
+                                            Sunflowers
+                                            <ul>
+                                                <li>
+                                                    Large Gray Strip
+                                                </li>
+                                                <li>
+                                                    Black Oil Blend
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li class="border-bottom">
+                                            Swiss Chard
+                                            <ul>
+                                                <li>
+                                                    Fordhook Giant
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li class="border-bottom">
+                                            Tomato
+                                            <ul>
+                                                <li>
+                                                    Beefsteak
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li class="border-bottom">
+                                            Turnips
+                                            <ul>
+                                                <li>
+                                                    Purple Top White Globe
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li class="border-bottom">
+                                            Watermelon
+                                            <ul>
+                                                <li>
+                                                    Crimson Sweet
+                                                </li>
+                                                <li>
+                                                    Sugar Baby
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                    </ul>
+                                        
+                                </section>
+                            </div>
+                            <!-- Third Column End -->
+                        </div>
                         <!-- Third Row End -->
+                        </section>
+                        
+                        <!-- Section id lawn for link jump -->
+                        <section id="lawn">
+                        <!-- Fourth Row Start -->
+                        <div class="row mt-3 ms-3 mx-3">
+                            
+                            <!-- First Column Start-->
+                            <div class="col-lg-6 fs-5 mb-2 border-end" style="background-color:#E0E0E0;">
+                                <h1 class="text-center mt-3">Lawn Seeds</h1>
+                                    
+                                    <ul>
+                                        <li>
+                                            Annual Rye
+                                        </li>
+                                        <br>
+                                        <li>
+                                            Creeping Red Fescue
+                                        </li>
+                                        <br>
+                                        <li>
+                                            Kentucky Bluegrass
+                                        </li>
+                                        <br>
+                                        <li>
+                                            Perennial Rye
+                                        </li>
+                                        <br>
+                                        <li>
+                                            White Dutch Clover
+                                        </li>     
+                                    </ul>
+                                
+                            </div>
+                            <!-- First Column End -->
+                            
+                            <!-- Second Column Start -->
+                            <div class="col-lg-6 fs-5 mb-2" style="background-color:#E0E0E0; padding-right:0!important;">
+                                <h1 class="text-center mt-3">Mixes</h1>
+                                    
+                                    <ul>
+                                        <li>
+                                            Roadside Mix
+                                            <ul>
+                                                <li>
+                                                    34&#46;85&#37; Creeping Red Fescue
+                                                </li>
+                                                <li>
+                                                    14&#46;90&#37; Kentucky Bluegrass
+                                                </li>
+                                                <li>
+                                                    49&#46;83&#37; Perennial Ryegrass
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li>
+                                            Sunny Mix
+                                            <ul>
+                                                <li>
+                                                    29&#46;30&#37; Creeping Red Fescue
+                                                </li>
+                                                <li>
+                                                    39&#46;20&#37; Kentucky Bluegrass
+                                                </li>
+                                                <li>
+                                                    29&#46;35&#37; SR4500 Perennial Ryegrass
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li>
+                                            Shady Mix
+                                            <ul>
+                                                <li>
+                                                    48&#46;90&#37; Creeping Red Fescue
+                                                </li>
+                                                <li>
+                                                    19&#46;62&#37; Kentucky Bluegrass
+                                                </li>
+                                                <li>
+                                                    9&#46;80&#37; SR4500 Perennial Ryegrass
+                                                </li>
+                                                <li>
+                                                    19&#46;60&#37; Annual Ryegrass
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li>
+                                            Sun &amp; Shade Mix
+                                            <ul>
+                                                <li>
+                                                    34&#46;15&#37; Creeping Red Fescue
+                                                </li>
+                                                <li>
+                                                    24&#46;45&#37; SR4500 Perennial Ryegrass
+                                                </li>
+                                                <li>
+                                                    19&#46;60&#37; Kentucky Bluegrass
+                                                </li>
+                                                <li>
+                                                    14&#46;60&#37; Pennlawn Creeping Red Fescue
+                                                </li>
+                                                <li>
+                                                    4&#46;90&#37; Annual Ryegrass
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                    </ul>
+                                
+                            </div>
+                            <!-- Second Column End -->
+                            
+                        </div>
+                        <!-- Fourth Row End -->
+                        </section>
                         
                         
                         
                        
                         
                         
-                    </article>
+                </article>
             </div>
         </main>
         <!-- Main End -->        
