@@ -18,18 +18,18 @@ X Forms - Required
 7 Delivery & Rental
 8 Dogs
 9 Cats
-10 (insert animal here)
+10 Horses
 11 Farm Chemicals
 12 Farm Fertilizer
 13 Farm Seeds
-14 Garden Seeds
-15 Lawn Seeds
+14 Lawn & Garden Seeds
+15 Lawn & Garden Fertilizer
 
 (Pages no one is responsible for / doesn't count towards our 15 pages)
 * Company Team Page
 * Home Template
 * General Pages Template
-* Lawn & Garden Fertilizer (Additional if needed)
+
 
 # ====== Page Responsibility ====== #
 
@@ -42,13 +42,13 @@ Registration - Orange
 Deliverary & Rental - Lemon
 Dogs - Apple
 Cats - Apple
-tempAnimal - Apple
+Horses - Apple
 Farm Chemicals - Orange
 Farm Fertilizer - Orange
 Farm Seeds - Orange
-Garden Seeds - Lemon
-Lawn Seeds - Lemon
-* Lawn & Garden Fertilizer - No one, (Additional if needed)
+Lawn & Garden Seeds - Lemon
+Lawn & Garden Fertilizer - Lemon
+
 
 # ====== Page Template Changes 4/27/2023 1:49 PM ====== #
 
