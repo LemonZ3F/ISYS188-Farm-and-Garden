@@ -42,32 +42,21 @@ body {
 
 /* ================ CAROUSEL ================ */
 
-/* Carousel base class */
+/* Makes space between the carousel and the main body of content */
 .carousel {
   margin-bottom: 4rem;
 }
 
-/* Since positioning the image, we need to help out the caption */
+/* Brings the carousel caption up further */
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
 }
 
-/* Declare heights because of positioning of img element */
+
+/* Lowers height to make sure caption and buttons can fit nicer on carousel */
 .carousel-item {
   height: 32rem;
-}
-
-/* ================ RESPONSIVE CSS ================ */
-
-/* Bump up size of carousel content */
-@media (min-width: 40em) {
-  .carousel-caption p {
-    margin-bottom: 1.25rem;
-    font-size: 1.25rem;
-    line-height: 1.4;
-  }
-
 }
 
 /* ================ OVERRULE BOOTSTRAP CSS ================ */
