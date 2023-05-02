@@ -30,6 +30,11 @@
         <!-- In Page Styles (Add if needed) -->
         <style>
             
+            .output {
+                /* Display none instead of visibility hidden to make sure output doesn't take up any space until the form is submitted */
+                display:none;
+            }
+            
         </style>
 
         <!-- BOOTSTRAP CSS -->
@@ -257,28 +262,78 @@
             <div class="container-lg container-body rounded shadow-lg">
                 <section>
                     <article>
-                        <h1>Welcome!</h1>
-                        <p class="fs-5">Here at <strong>Big Rapids Farm &amp; Garden</strong>, you can find a wide range of products. We have everything from pet supplies to farm chemicals, fertilizers, and seeds!</p>
-                        <img src="../images/templateimage_1600x535.png" class="img-fluid rounded mx-auto d-block" alt="Template Image 1600x535">
+                        
+                        <!-- The following h1, p, and img tag are not included in a row or a column -->
+                        <h1 class="text-center">Welcome!</h1>
+                        <p class="fs-5 text-center">Here at <strong>Big Rapids Farm &amp; Garden</strong>, you can find a wide range of products. We have everything from pet supplies to farm chemicals, fertilizers, and seeds!</p>
+                        <img src="../images/home_instore.jpg" class="img-fluid rounded mx-auto d-block" alt="Template Image 1600x535">
                     
                         <br>
-                    
-                        <div class="row mt-3 ms-3 me-3">
+                        
+                        <!-- First Row (technically) Start-->
+                        <div class="row my-3 ms-3 me-3">
                             <div class="col-lg-6 text-center">
                             
-                                <p class="fs-2 text-start">Lorem Ipsum</p>
+                                <h1 class="fs-2 text-start"><strong>Having Trouble?</strong></h1>
 
-                                <p class="fs-5">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                <p class="fs-3 align-middle">
+                                    Check our navigation menu &#40;located at the top of the page&#41; and find the page you want in the dropdowns. If you're still having trouble finding something on the website, feel free to <a href="contact.html" target="_self">give us a call</a>. Additionally you can come into the store and talk to one of our staff.
                                 </p>
+                                
                             </div>   
                             <div class="col-lg-6 text-center">
-                                <img src="../images/templateimage_600x600.png" class="img-fluid rounded" alt="Template Image 600x600">
+                                <img src="../images/home_outside.jpeg" class="img-fluid rounded" alt="Template Image 600x600">
                             </div>
                         </div>
-                    
-                        <br>
-                    
+                        <!-- First Row End -->
+                        
+                        
+                        
+                        <!-- Second Row Start -->
+                        <div class="row mt-3 ms-3 me-3">
+                            <div class="col-lg-12">
+                                <h1 class="fs-2 text-center">Feedback</h1>
+                                
+                                <p class="fs-3 text-center">Found something confusing? Hard to find? Let us know in the feedback form below!</p>
+                                <form id="feedbackForm" name="feedbackForm" class="border rounded text-center">
+                                    <fieldset>
+                                        
+                                        <!-- First Name Input -->
+                                        <input id="firstName" name="firstName" type="text" class="rounded my-3 mx-3" style="width:200px;height:65px;" placeholder="First Name:" value="">
+                                        
+                                        <!-- Last Name Input -->
+                                        <input id="lastName" name="lastName" type="text" class="rounded my-3 mx-3" style="width:200px;height:65px;" placeholder="Last Name:" value="">
+                                        
+                                        <br>
+                                        
+                                        <!-- Feedback TextArea-->
+                                        <textarea id="feedbackTxt" name="feedbackTxt" class="rounded my-3 mx-3" placeholder="Enter your feedback here." rows="5" cols="50"></textarea>
+                                        
+                                        <br>
+                                        
+                                        <!-- Submit Button -->
+                                        <button type="button" id="submitButton" name="submitButton" class="rounded my-3 mx-3 btn btn-primary fs-5" style="width:150px;height:65px;" onclick="feedbackSubmitted();">
+                                            Submit Feedback
+                                        </button>
+                                        
+                                    </fieldset>
+                                </form>
+                                
+                            </div>
+                        </div>
+                        <!-- Second Row End -->
+                        
+                        
+                        
+                        <!-- Third Row Start -->
+                        <div class="row mt-3 ms-3 me-3">
+                            <div class="col-lg-12 text-center output" id="outputDiv" name="outputDiv">
+                                <p class="fs-5" style="color:#005700!important;font-weight:bold;">Thank you for your feedback! Our team will look at it soon!</p>
+                                <h1>Output:</h1>
+                                <output id="outputTxt" name="outputTxt"></output>
+                            </div>
+                        </div>
+                        <!-- Third Row End -->
                     </article>
                 </section>
             </div>
@@ -366,6 +421,8 @@
         <!-- BOOTSTRAP JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
         
+        <!-- FEEDBACK FORM JS -->
+        <script src="../js/home_feedback.js"></script>
         <!-- ================ JAVASCRIPT END ================ -->
        
    </body>
